@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="gbk"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="lib" path="3rdLibs/substance.jar"/>
+	<classpathentry kind="lib" path="3rdLibs/c3p0-0.9.1.2.jar"/>
+	<classpathentry kind="lib" path="3rdLibs/commons-beanutils-1.8.3.jar"/>
+	<classpathentry kind="lib" path="3rdLibs/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="3rdLibs/commons-dbutils-1.4.jar"/>
+	<classpathentry kind="lib" path="3rdLibs/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="3rdLibs/mysql-connector-java-5.1.39-bin.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

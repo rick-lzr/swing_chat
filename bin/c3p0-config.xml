@@ -1,0 +1,21 @@
+<c3p0-config>
+    <!-- 默认配置，如果没有指定则使用这个配置 -->
+    <default-config>
+        <!-- 基本配置 -->
+        <property name="driverClass">com.mysql.jdbc.Driver</property>
+        <property name="jdbcUrl">jdbc:mysql://127.0.0.1:3306/chat_room?useUnicode=true&amp;characterEncoding=utf-8&amp;useSSL=false</property>
+        <property name="user">root</property>
+        <property name="password">ls432105</property>
+
+        <!--扩展配置-->
+        <property name="checkoutTimeout">30000</property>
+        <property name="idleConnectionTestPeriod">30</property>
+        <property name="initialPoolSize">10</property>
+        <property name="maxIdleTime">30</property>
+        <property name="maxPoolSize">100</property>
+        <property name="minPoolSize">10</property>
+        <property name="maxStatements">200</property>
+    </default-config>
+
+
+</c3p0-config> 
